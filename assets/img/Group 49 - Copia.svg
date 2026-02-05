@@ -1,0 +1,35 @@
+<svg width="2560" height="1964" viewBox="0 0 2560 1964" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g filter="url(#filter0_f_835_19)">
+<rect opacity="0.67" width="235.957" height="1328.39" transform="matrix(-0.833501 0.552519 0.547264 0.83696 1113.38 -1182.65)" fill="#4314CB"/>
+<defs>
+	<linearGradient id="rainbowGrad" gradientUnits="userSpaceOnUse" x1="-700" y1="0" x2="920" y2="0">
+		<stop offset="0%" stop-color="#ec3535"/>
+		<stop offset="11%" stop-color="#f0449a"/>
+		<stop offset="22%" stop-color="#d354f3"/>
+		<stop offset="34%" stop-color="#9c64f6"/>
+		<stop offset="45%" stop-color="#74a9f9"/>
+		<stop offset="57%" stop-color="#85ccfb"/>
+		<stop offset="68%" stop-color="#97ddfd"/>
+		<stop offset="79%" stop-color="#a9e6fe"/>
+		<stop offset="100%" stop-color="#bbfff6"/>
+	</linearGradient>
+</defs>
+
+<rect width="235.958" height="1328.39" transform="matrix(-0.833501 0.552519 0.547264 0.83696 916.707 -1052.28)" fill="url(#rainbowGrad)"/>
+<rect width="235.958" height="1328.39" transform="matrix(-0.833501 0.552519 0.547264 0.83696 720.036 -921.907)" fill="url(#rainbowGrad)"/>
+<rect width="235.958" height="1328.39" transform="matrix(-0.833501 0.552519 0.547264 0.83696 523.366 -791.536)" fill="url(#rainbowGrad)"/>
+<rect width="235.958" height="1328.39" transform="matrix(-0.833501 0.552519 0.547264 0.83696 326.696 -661.165)" fill="url(#rainbowGrad)"/>
+<rect width="235.958" height="1328.39" transform="matrix(-0.833501 0.552519 0.547264 0.83696 130.026 -530.794)" fill="url(#rainbowGrad)"/>
+<rect width="235.958" height="1328.39" transform="matrix(-0.833501 0.552519 0.547264 0.83696 -66.6465 -400.423)" fill="url(#rainbowGrad)"/>
+<rect width="235.958" height="1328.39" transform="matrix(-0.833501 0.552519 0.547264 0.83696 -263.317 -270.052)" fill="url(#rainbowGrad)"/>
+<rect width="235.958" height="1328.39" transform="matrix(-0.833501 0.552519 0.547264 0.83696 -459.987 -139.681)" fill="url(#rainbowGrad)"/>
+<rect width="235.958" height="1328.39" transform="matrix(-0.833501 0.552519 0.547264 0.83696 -656.658 -9.3103)" fill="url(#rainbowGrad)"/>
+</g>
+<defs>
+<filter id="filter0_f_835_19" x="-1650" y="-2173.76" width="4680.37" height="4137" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feGaussianBlur stdDeviation="300" result="effect1_foregroundBlur_835_19"/>
+</filter>
+</defs>
+</svg>
