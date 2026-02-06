@@ -17,6 +17,18 @@ body {
     color: aliceblue;
 }
 
+a {
+    color: #fff;
+    text-decoration: none;
+}
+li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+li a:hover {
+    text-decoration: underline;
+}
 
 .main {
     padding: 1rem;
@@ -27,7 +39,7 @@ body {
 
 .main::before {
     content: '';
-    background-image: url('../img/Group\ 49.svg');
+    background-image: url('../img/mesh.svg');
     background-repeat: no-repeat;
     background-size: contain;
     display: inline-block;
@@ -41,7 +53,7 @@ body {
 
 .main::after {
     content: '';
-    background-image: url('../img/Group\ 49\ -\ Copia.svg');
+    background-image: url('../img/mesh-blue.svg');
     background-repeat: no-repeat;
     background-size: contain;
     display: inline-block;
@@ -66,5 +78,5 @@ body {
         width: 70vw;
     }
 
-        
+
 }

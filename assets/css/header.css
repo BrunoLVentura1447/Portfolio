@@ -15,7 +15,7 @@
     height: 2rem;
     background-repeat: no-repeat;
     background-size: contain;
-    background-image: url(../img/icons/Group\ 481411.svg);
+    background-image: url(../img/icons/menu.svg);
 
 }
 
@@ -55,6 +55,8 @@
     margin-right: .5rem;
 }
 
+
+
 .information .job::before {
     background-image: url(../img/icons/job.svg);
 }
@@ -68,7 +70,7 @@
 }
 
 .information .phone::before {
-    background-image: url(../img/icons/contato.svg);
+    background-image: url(../img/icons/contact.svg);
 }
 
 
