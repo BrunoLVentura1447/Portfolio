@@ -157,7 +157,7 @@ O portfólio é totalmente responsivo e se adapta para:
 **Bruno Luiz Ventura**
 - 📧 Email: brunoluizventura15@gmail.com
 - 🐙 GitHub: [@BrunoLVentura1447](https://github.com/BrunoLVentura1447)
-- 💼 LinkedIn: [LinkedIn Profile](seu-linkedin-aqui)
+- 💼 LinkedIn: [LinkedIn Profile](https://www.linkedin.com/in/bruno-ventura-093909260/)
 
 ## 📝 Licença
 
