@@ -5,47 +5,45 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfólio Bruno L Ventura</title>
+    <title>Portifólio Bruno Luiz Ventura</title>
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
         integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
-        rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap">
 
-    <link rel="stylesheet" href="assets/css/header.css">
-    <link rel="stylesheet" href="assets/css/global.css">
-    <link rel="stylesheet" href="assets/css/acordeon.css">
-    <link rel="stylesheet" href="assets/css/languages.css">
-    <link rel="stylesheet" href="assets/css/portfolio.css">
-    <link rel="stylesheet" href="assets/css/experience.css">
-    <link rel="stylesheet" href="assets/css/skills.css">
+    <link rel="stylesheet" href="/assets/css/global.css">
+    <link rel="stylesheet" href="/assets/css/header.css">
+    <link rel="stylesheet" href="/assets/css/acordeon.css">
+    <link rel="stylesheet" href="/assets/css/languages.css">
+    <link rel="stylesheet" href="/assets/css/portfolio.css">
+    <link rel="stylesheet" href="/assets/css/experience.css">
+    <link rel="stylesheet" href="/assets/css/skills.css">
+    <link rel="stylesheet" href="/assets/css/footer.css">
 </head>
 
 <body>
-
     <main class="main">
-
         <header class="header">
+            <img src="/assets/img/carregando.jpg" alt="Foto de Perfil" class="photo " id="profile.photo">
 
-            <img src="assets/img/perfil.png" alt="Foto de Bruno L Ventura" class="photo">
-            <h1 class="title">Olá, <br> eu sou o Bruno L Ventura</h1>
+            <h1 class="title">
+                Olá, <br>eu sou <span id="profile.name">Carregando...</span>
+            </h1>
 
             <div class="information">
-                <p class="job">Junior Developer</p>
-                <p class="location">São Paulo - BR</p>
+                <p class="job" id="profile.job">Carregando...</p>
+                <p class="location" id="profile.location">Carregando...</p>
                 <p class="phone">
-                    <a href="tel:+5511978540764" target="_blank">(11) 97854-0764</a>
+                    <a href="tel:(11) 9 7854-0764" id="profile.phone">Carregando...</a>
                 </p>
                 <p class="email">
-                    <a href="mailto:Brunoluizventura15@gmail.com" target="_blank">Brunoluizventura15@gmail.com</a>
+                    <a href="mailto:brunoluizventura15@gmail.com" id="profile.email">Carregando...</a>
                 </p>
             </div>
-
-
         </header>
 
         <section class="acordeon open">
@@ -56,41 +54,34 @@
             <div class="content">
                 <div class="skills">
                     <section class="tools">
-                        <h3>Ferramentas: </h3>
-                        <ul>
-                            <li><img src="assets/img/icons/icon-js.svg" alt="JavaScript"></li>
-                            <li><img src="assets/img/icons/icon-python.svg" alt="Python"></li>
-                            <li><img src="assets/img/icons/icon-node.svg" alt="Node.js"></li>
-                            <li><img src="assets/img/icons/icon-github.svg" alt="GitHub"></li>
-
-
+                        <h3>Ferramentas:</h3>
+                        <ul id="profile.skills.hardSkills">
+                            <li>
+                                <img src="/assets/img/icons/tools/nodejs.svg" alt="Nodejs" title="Nodejs">
+                            </li>
+                            <li>
+                                <img src="/assets/img/icons/tools/react.svg" alt="React" title="React">
+                            </li>
+                            <li>
+                                <img src="/assets/img/icons/tools/git.svg" alt="GIT" title="GIT">
+                            </li>
+                            <li>
+                                <img src="/assets/img/icons/tools/java.svg" alt="Java" title="Java">
+                            </li>
                         </ul>
                     </section>
 
-                    <section class="Personal">
-                        <h3>Habilidades pessoais: </h3>
-                        <ul>
-                            <li>
-                                <p>Autodidata</p>
-                            </li>
-                            <li>
-                                <p>Trabalho em equipe</p>
-                            </li>
-                            <li>
-                                <p>Comunicação</p>
-                            </li>
-                            <li>
-                                <p>Resolução de problemas</p>
-                            </li>
-                            <li>
-                                <p>Comprometimento com resultados</p>
-                            </li>
+                    <section class="personal">
+                        <h3>Pessoal:</h3>
+                        <ul id="profile.skills.softSkills">
+                            <li>carregando...</li>
+                            <li>carregando...</li>
+                            <li>carregando...</li>
                         </ul>
                     </section>
                 </div>
             </div>
         </section>
-
 
         <section class="acordeon">
             <button class="trigger" type="button">
@@ -98,10 +89,8 @@
             </button>
 
             <div class="content">
-                <ul class="languages">
-                    <li>Portugues</li>
-                    <li>Inglês</li>
-                    <li>Espanhol</li>
+                <ul class="languages " id="profile.languages">
+                    <li>Carregando...</li>
                 </ul>
             </div>
         </section>
@@ -112,23 +101,8 @@
             </button>
 
             <div class="content">
-                <ul class="portfolio">
-                    <li>
-                        <h3 class="title github">Desenvolvedor Lembrete</h3>
-                        <a href="http://www.google.com" target="_blank"> www.google.com</a>
-                    </li>
-                    <li>
-                        <h3 class="title github">Desenvolvedor Lembrete</h3>
-                        <a href="https://www.google.com" target="_blank"> www.google.com</a>
-                    </li>
-                    <li>
-                        <h3 class="title github">Desenvolvedor Lembrete</h3>
-                        <a href="http://www.google.com" target="_blank"> www.google.com</a>
-                    </li>
-                    <li>
-                        <h3 class="title github">Desenvolvedor Lembrete</h3>
-                        <a href="http://www.google.com" target="_blank"> www.google.com</a>
-                    </li>
+                <ul class="portfolio" id="profile.portfolio">
+
                 </ul>
             </div>
         </section>
@@ -139,27 +113,33 @@
             </button>
 
             <div class="content">
-                <ul class="experience">
-                    <li>
-                        <h3 class="title">Mega moto Brasil</h3>
-                        <p class="period">jan 2020 - dez 2022</p>
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatem provident facere
-                            laudantium rerum rem, incidunt vel necessitatibus animi impedit earum veniam blanditiis
-                            recusandae? Dignissimos voluptates unde fuga harum ad et!</p>
-                    </li>
-                    <li>
-                        <h3 class="title">Movida</h3>
-                        <p class="period">jan 2020 - dez 2022</p>
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatem provident facere
-                            laudantium rerum rem, incidunt vel necessitatibus animi impedit earum veniam blanditiis
-                            recusandae? Dignissimos voluptates unde fuga harum ad et!</p>
-                    </li>
+                <ul class="experience" id="profile.professionalExperience">
+
                 </ul>
             </div>
         </section>
+        <section class="acordeon">
+            <button class="trigger" type="button">
+                <h2>Educacional</h2>
+            </button>
 
+            <div class="content">
+                <ul class="experience" id="profile.education">
+
+                </ul>
+            </div>
+        </section>
+        <footer>
+            <a href="https://www.dio.me" target="_blank">
+                <img src="assets/img/icon-dio.svg" alt="">
+            </a>
+        </footer>
     </main>
-    <script src="assets/js/acordeon.js"></script>
+
+    <script src="/assets/js/acordeon.js"></script>
+    <script src="/assets/js/api.js"></script>
+    <script src="/assets/js/main.js"></script>
 </body>
 
+<!-- acabou gracas a deus  -->
 </html>

@@ -15,8 +15,7 @@
     height: 2rem;
     background-repeat: no-repeat;
     background-size: contain;
-    background-image: url(../img/icons/menu.svg);
-
+    background-image: url('/assets/img/icons/header.svg');
 }
 
 .header .photo {
@@ -26,7 +25,7 @@
 }
 
 .header .title {
-    font-family: Neue Machina;
+    font-family: 'Neue Machina';
     text-align: center;
 }
 
@@ -55,24 +54,21 @@
     margin-right: .5rem;
 }
 
-
-
 .information .job::before {
-    background-image: url(../img/icons/job.svg);
-}
-
-.information .email::before {
-    background-image: url(../img/icons/email.svg);
+    background-image: url('/assets/img/icons/job.svg');
 }
 
 .information .location::before {
-    background-image: url(../img/icons/location.svg);
+    background-image: url('/assets/img/icons/location.svg');
+}
+
+.information .email::before {
+    background-image: url('/assets/img/icons/email.svg');
 }
 
 .information .phone::before {
-    background-image: url(../img/icons/contact.svg);
+    background-image: url('/assets/img/icons/phone.svg');
 }
-
 
 @media only screen and (min-width: 768px) {
     .header {
@@ -86,7 +82,6 @@
     .header .photo {
         grid-area: photo;
         margin: 0 auto;
-
     }
 
     .header .title {

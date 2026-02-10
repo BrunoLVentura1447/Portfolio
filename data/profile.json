@@ -1,0 +1,95 @@
+{
+  "name": "Bruno Luiz Ventura",
+  "photo": "https://avatars.githubusercontent.com/u/156997028?v=4",
+  "job": "Desenvolvedor Junior",
+  "location": "São Paulo - SP",
+  "phone": "(11) 9 7854-0764",
+  "email": "brunoluizventura15@gmail.com",
+  "skills": {
+    "hardSkills": [
+      {
+        "nome": "Javascript",
+        "logo": "https://raw.githubusercontent.com/BrunoLVentura1447/js-developer-portfolio/refs/heads/main/data/imgs/js.png"
+      },
+      {
+        "nome": "Python",
+        "logo": "https://raw.githubusercontent.com/BrunoLVentura1447/js-developer-portfolio/refs/heads/main/data/imgs/python.png"
+      },
+      {
+        "nome": "Node.js",
+        "logo": "https://raw.githubusercontent.com/BrunoLVentura1447/js-developer-portfolio/refs/heads/main/data/imgs/nodejs.png"
+      },
+      {
+        "nome": "Github",
+        "logo": "https://raw.githubusercontent.com/BrunoLVentura1447/js-developer-portfolio/refs/heads/main/data/imgs/github.png"
+      },
+      {
+        "nome": "HTML",
+        "logo": "https://raw.githubusercontent.com/BrunoLVentura1447/js-developer-portfolio/refs/heads/main/data/imgs/html.png"
+      },
+      {
+        "nome": "CSS",
+        "logo": "https://raw.githubusercontent.com/BrunoLVentura1447/js-developer-portfolio/refs/heads/main/data/imgs/css.png"
+      }
+    ],
+    "softSkills": [
+      "Comunicação",
+      "Empatia",
+      "Autodidata",
+      "Trabalho em equipe",
+      "Comprometimento com resultados",
+      "Resolução de problemas"
+    ]
+  },
+  "languages": [
+    "Português (nativo)",
+    "Inglês (intermediário)",
+    "Espanhol (intermediário)"
+  ],
+  "education": [
+    {
+      "name": "Análise e Desenvolvimento de Sistemas",
+      "description": "Estudo da área tecnóloga voltada para a criação, implementação, teste e manutenção de softwares e sistemas computacionais.",
+      "institute": "Faculdade das Americas (FAM)",
+      "period": "2025 - Atualmente"
+    },
+    {
+      "name": "dio.me",
+      "description": "Aprendizado contínuo na maior plataforma de educação aberta da América Latina.",
+      "institute": "Digital Innovation One (DIO)",
+      "period": "2026 - Atualmente"
+    },
+    {
+      "name": "Técnico em Desenvolvimento de Sistemas",
+      "description": "Estudo da área tecnóloga voltada para a criação e manutenção de softwares.",
+      "institute": "Etec de Poá",
+      "period": "2021 - 2023"
+    }
+  ],
+  "portfolio": [
+    {
+      "name": "Construindo uma Pokédex (DIO)",
+      "url": "https://github.com/BrunoLVentura1447/Pokedex/tree/main",
+      "certificado": "https://hermes.dio.me/certificates/M9J7PBRZ.pdf",
+      "github": "true"
+    },
+    {
+      "name": "Construindo uma de portfólio (DIO)",
+      "url": "https://github.com/BrunoLVentura1447/js-developer-portfolio/tree/projeto-base",
+      "certificado": "https://hermes.dio.me/certificates/M9J7PBRZ.pdf",
+      "github": "true"
+    }
+  ],
+  "professionalExperience": [
+    {
+      "name": "Ajudante Geral - Mega Moto Brasil",
+      "period": "03/2025 - 10/2025",
+      "description": "Atribuições: Usinagem, Montagem e desmontagem de Pedaleiras."
+    },
+    {
+      "name": "Assistente de atendimento ao condutor - Movida",
+      "period": "05/2024 - 12/2024",
+      "description": "Atribuições: Pacote Office e Sac, Atendimento pelos canais de WhatsApp,telefone e e-mail."
+    }
+  ]
+}
